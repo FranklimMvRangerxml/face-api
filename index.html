@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceAPI Demo - Emociones y Landmarks</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Detección Facial con face-api.js</h1>
+    <div id="status">Cargando modelos y esperando acceso a la cámara...</div>
+    <div class="container">
+        <div class="video-container">
+            <video id="video" width="720" height="560" autoplay muted playsinline></video>
+            <canvas id="canvas"></canvas>
+        </div>
+        <div id="results">
+            <h2>Resultados:</h2>
+            <p><strong>Emoción Detectada:</strong> <span id="emotion">---</span></p>
+        </div>
+    </div>
+</body>
+</html>
