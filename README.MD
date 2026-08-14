@@ -94,11 +94,4 @@
  *   **Contexto Seguro (HTTPS/Localhost):** La API `getUserMedia` (para acceder a la cámara) sólo funciona en contextos seguros. Esto significa que **debes** acceder a la página a través de `https` (si tuvieras un certificado) o, más comúnmente para desarrollo local, usando `http://localhost` o `http://127.0.0.1`. Acceder mediante `file:///` o IPs de red local (como `http://192.168.x.x`) probablemente **no funcionará**.
  *   **Carga de Modelos:** Verifica que la carpeta `models` esté en el lugar correcto (raíz del proyecto) y contenga todos los archivos necesarios. Si tienes problemas, revisa la consola de desarrollador de tu navegador (usualmente presionando F12) para ver mensajes de error detallados.
  
- ## 📄 Licencia
- 
- Este proyecto está bajo la Licencia MIT. Puedes ver los detalles [aquí](https://opensource.org/licenses/MIT). 
- 
- ---
- 
- ¡Espero que disfrutes explorando las capacidades de face-api.js!
  
